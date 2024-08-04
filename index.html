@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/uber.png" alt="">
+            <p>EU fui despedido hoje, tenho crianças para cuidar e sustentar, mas sem uma renda, isso é impossivel, um amigo sugeriu que eu começasse a trabalhar com o aplicativo Uber, porém não sei aonde isso pode me levar.</p>
+            <button class="btn-proximo" data-proximo="1">Começar no Uber</button>
+            <button class="btn-proximo" data-proximo="2">Procurar Emprego</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você testa essa plataforma por um dia que rende mais dinheiro do que o esperado em pouco tempo, porém continua inseguro a respeito da estabilidade do trabalho</p>
+            <button class="btn-proximo" data-proximo="3">Continuar na área</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e tentar CLT novamente.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você continua procurando um emprego de regime CLT, entretanto continua pesquisando a respeito de trabalhos com regimes uberizados</p>
+            <button class="btn-proximo" data-proximo="5">Trabalhar como Uber</button>
+            <button class="btn-proximo" data-proximo="6">CLT</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Depois de um arduo mês percebe que recebeu nesse tempo, o dobro do seu antigo salário</p>
+            <button class="btn-proximo" data-proximo="7">Seguir carreira</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/Problemas.jfif" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que é muito arriscado e volta a procurar um emprego formal.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao inicio da jornada</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Depois de um inicio melhor que o esperado, você começa a se sentir positivo com a nova liberdade de passar um tempo com a familia.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir carreira</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você encontra um emprego, mas é despedido rapidamente</p>
+            <button class="btn-proximo" data-proximo="8">Começar no Uber</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Depois de alguns meses você percebe a instabilidade desse trabalho, variando entre uma alta renda e um salário minimo, forçando-o a tomar uma decisão em prol do futuro</p>
+            <button class="btn-proximo" data-proximo="9">Voltar ao estudos para conseguir melhores oportunidades</button>
+            <button class="btn-proximo" data-proximo="10">Continuar na profissão apesar de tudo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta a estaca inicial, você finalmente decide começar a trabalhar nessa plataforma.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir carreira</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você estuda muito a área de tecnologia e acha um emprego de nível junior em uma empresa grande.</p>
+            <button class="btn-proximo" data-proximo="11">Fazer a entrevista</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você continua tentando, mas logo percebe que você se tornou um pai horrivel que nunca está ao lado de sua familia</p>
+            <button class="btn-proximo" data-proximo="12">Desistir e começar a estudar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/Tech.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você passa na entrevista de forma magnifica e continua estudando sem parar para avançar no mercado.</p>
+                <button class="btn-proximo" data-proximo="0">Voltar ao inicio da jornada</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando ao desemprego, você começa a se focar nos estudos de tecncologia ao extremo e acha uma vaga de emprego depois de um tempo.</p>
+            <button class="btn-proximo" data-proximo="11">Fazer a entrevista</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
